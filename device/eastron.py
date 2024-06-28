@@ -21,6 +21,7 @@ class SDM:
 
     cfg = {"SDM120": {'p': (0x0C, 1), 'e_total': (0x156, 1000), 'e_import': (0x48, 1000), 'e_export': (0x4A, 1000)},
            "SDM72": {'p': (0x34, 1), 'e_total': (0x156, 1000)},
+           "SDM230": {'p': (0x0C, 1), 'e_total': (0x156, 1000)},
            "SDM630": {'p': (0x34, 1), 'e_total': (0x156, 1000)}}
 
     def __init__(self, port, type, address, lifetime=10, log_name='sdmx'):
